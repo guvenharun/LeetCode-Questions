@@ -1,0 +1,29 @@
+
+First Loop (index = 0, num = 2):
+- Calculated result:  
+  result = target - num  
+  result = 9 - 2 = 7
+  
+- Checking num_dict:  
+  7 is not found in num_dict.
+  
+- Updating num_dict:  
+  Add the current number with its index to the dictionary:  
+  num_dict[2] = 0
+  
+- Status:  
+  num_dict = {2: 0}
+
+---
+
+Second Loop (index = 1, num = 7):
+- Calculated result:  
+  result = target - num  
+  result = 9 - 7 = 2
+  
+- Checking num_dict:  
+  2 is found in num_dict.
+  
+- Function returns:  
+  Since 2 is already in num_dict, return the indices [0, 1].
+

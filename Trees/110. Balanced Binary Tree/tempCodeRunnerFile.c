@@ -1,0 +1,1 @@
+ insert(&root, 5);
