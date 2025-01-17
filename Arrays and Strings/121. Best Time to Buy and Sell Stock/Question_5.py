@@ -1,5 +1,6 @@
 class Solution:
-    def maxProfit(self, prices: list[int]) -> int:
+    def maxProfit(self, prices):
+  
         current = 0
         prev = 0
         higher=0
@@ -15,7 +16,8 @@ class Solution:
             else:
                 higher = current                   
             prev = current   
-            index.append(higher-lower)        
+            index.append(higher-lower)    
+                
         if  max(index)  > 0:
             return  max(index)   
         else:

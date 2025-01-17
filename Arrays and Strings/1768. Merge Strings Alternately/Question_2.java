@@ -15,7 +15,7 @@ class Solution {
         return merged.toString();
     }
 }
-
+ 
 public class Question_2 {
     public static void main(String[] args) {
         String word1 = "abc";
