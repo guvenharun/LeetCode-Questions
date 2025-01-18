@@ -21,7 +21,7 @@ class Solution {
             }else{
                 sum+= currentValue;
             }
-            prevValue = currentValue;
+            prevValue = currentValue; 
 
         }
         return sum;
